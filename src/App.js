@@ -1,9 +1,8 @@
 import React from "react";
+import Body from "./components/Body";
 
 const App = () => {
-  return (
-    <div className="font-bold text-3xl text-green-800">Netflix Project</div>
-  );
+  return <Body />;
 };
 
 export default App;
