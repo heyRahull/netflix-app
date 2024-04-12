@@ -19,6 +19,16 @@
 - BugFix : if the user is not logged in redirect /browse to Login page and vice-versa
 - Unsubscribe to the onAuthStateChanges callback
 - Add hardcoded values to constants.js
+- Register TMDB API & create an app and get access token
+- Get Data from TMDB Now Playing Movies List API
+- Adding Movie data to the store (movieSlice)
+- Creating our own custom hook - useNowPlayingMovies & abstract the logic
+- Building Browse page
+- Building Video Title
+- Building Video Background
+- Creating custom hook for trailer video
+- Building Video background UI
+- creating Movie Suggestions
 
 # Features
 
