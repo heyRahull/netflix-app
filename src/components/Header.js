@@ -50,7 +50,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="absolute w-screen mr-2 px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
+    <div className="video_width absolute mr-2 px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
       <img className="w-44" src={Logo} alt="logo" />
       {user && (
         <div className="flex ">
@@ -61,7 +61,9 @@ const Header = () => {
               src={user.photoURL}
               alt="user_icon"
             />
-            <span>{user.displayName && user.displayName.split(" ")[0]}</span>
+            <span className="text-white">
+              {user.displayName && user.displayName.split(" ")[0]}
+            </span>
           </div>
           <span
             onClick={handleSignOut}
